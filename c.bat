@@ -1,0 +1,2 @@
+@echo off
+g++ -std=c++11 src\main.cpp src\board.cpp src\tile.cpp src\UI.cpp src\extra.cpp src\timer.cpp src\bullet.cpp src\bullethell.cpp -Iinclude -ISFML\include -LSFML\lib -o bin\minesweeper.exe -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio
