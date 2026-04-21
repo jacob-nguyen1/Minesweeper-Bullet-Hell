@@ -1,0 +1,23 @@
+# Compiled binary
+minesweeper
+bin/
+
+# Build artifacts
+*.o
+*.d
+
+# Windows batch scripts
+*.bat
+
+# Bundled SFML (use system-installed SFML instead)
+SFML/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
